@@ -1,0 +1,25 @@
+{% extends "base.html" %} {% block content %}
+
+<div class="loginBack animated slideInLeft">
+    <div id="loginContent">
+        <span id="signInText">SIGN IN</span>
+        <form action="" method="post" novalidate>
+            {{ form.hidden_tag() }}
+            <br> <br> <br>
+            <p>
+                {{ form.username.label(class_="formLabel") }}<br> <br>{{ form.username(size=32 , class_="formInputs") }}
+            </p>
+            <p>
+                {{ form.password.label(class_="formLabel") }}<br> <br> {{ form.password(size=32, class_="formInputs") }}
+            </p>
+            <br> <br> <br>
+            <p>{{ form.submit(class_="submitForm animated bounce") }}</p>
+            <br> <br>
+            <p id="surpriseText">Your gift is waiting inside . Hurry !!</p>
+        </form>
+    </div>
+    <a href="{{ url_for('index') }}" id="homePage">HOME</a>
+</div>
+
+
+{% endblock %}

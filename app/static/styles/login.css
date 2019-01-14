@@ -1,0 +1,78 @@
+.loginBack {
+    height: 100%;
+    width:  100%;
+    background-image: url("../image/loginBackground.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+#loginContent{
+    position: absolute;
+    top: 5%;
+    left: 57%;
+    max-width: 50%;
+    width: 100%;
+    height: auto;
+}
+.submitForm{
+    background-color: #27c495;
+    border: none;
+    max-width: 40%;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    color:white;
+    left: 15%;
+    position: absolute;
+
+}
+#surpriseText{
+    color: #585c66;
+    left: 15%;
+    position: relative;
+    letter-spacing: 2px;
+}
+.formLabel{
+    font-size: 4vh;
+    letter-spacing: 6px;
+    color: #383a3f;
+}
+.formInputs{
+    position: relative;
+    padding-left: 10px;
+    border-left: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    max-width: 60%;
+    width: 100%;
+    height: 40px;
+    background-color: #d8d8d8;
+    border: none;
+    -webkit-box-shadow: 10px 10px 23px -7px rgba(0,0,0,0.62);
+    -moz-box-shadow: 10px 10px 23px -7px rgba(0,0,0,0.62);
+    box-shadow: 10px 10px 23px -7px rgba(0,0,0,0.62);
+}
+#homePage{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    color: #383a3f;
+    text-decoration: none;
+}
+.formInputs:focus {
+    outline: none;
+}
+.submitForm:focus{
+    outline: none;
+}
+#signInText{
+    font-size: 4vw;
+    letter-spacing: 10px;
+    font-weight: 100;
+    top: 3%;
+    
+}

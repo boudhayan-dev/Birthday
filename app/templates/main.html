@@ -1,0 +1,89 @@
+{% extends "base.html" %} {% block content %}
+
+<div class="mainPage" id="fullpage">
+    <div class="first section">
+        <div class="wrap" id="wrap">
+            <div class="photo photo_front" id="{% raw %}photo_{{index}}{% endraw %}" onclick="turn(this)">
+                <div class="photo-wrap">
+                    <div class="side side-front">
+                        <p class="image">
+                            <img id="img" src="../static/photo/{% raw %}{{img}}{% endraw %}">
+                        </p>
+                        <p class="caption">{% raw %}{{caption}}{% endraw %}</p>
+                        
+                    </div>
+                    <div class="side side-back">
+                        <p class="desc">{% raw %}{{desc}}{% endraw %}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="second section">
+        <img src="{{ url_for('static',filename='image/0.png') }}" alt="firstHero" class="heroImages" id="heroImage1">
+        <img src="{{ url_for('static',filename='image/1.png') }}" alt="secondHero" class="heroImages" id="heroImage2">
+        <img src="{{ url_for('static',filename='image/3.png') }}" alt="thirdHero" class="heroImages" id="heroImage3">
+        <div id="message1" class="messageCard">
+            <p id="messageContent">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet modi, voluptatum dicta quae minima optio adipisci ab eaque sint aliquam iure, molestiae soluta rem! Placeat neque saepe commodi quasi hic!
+            </p>
+        </div>
+        <div id="message2" class="messageCard">
+            <p id="messageContent">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolor accusantium quas praesentium corrupti suscipit provident velit, fugit molestias aspernatur nostrum qui laboriosam quibusdam iure tempore dolore. Mollitia, itaque sapiente.
+            </p>
+        </div>
+        <div id="message3" class="messageCard">
+            <p id="messageContent">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet impedit porro nobis numquam sequi atque neque assumenda cumque dolorem eos, ipsa facere commodi hic eligendi sed maiores aperiam delectus fugiat.
+            </p>
+        </div>
+    </div>
+
+    <div class="third section">
+        <img src="{{ url_for('static',filename='image/5.png') }}" alt="fourthHero" class="heroImages" id="heroImage1">
+        <img src="{{ url_for('static',filename='image/4.png') }}" alt="fifthHero" class="heroImages" id="heroImage2">
+        <img src="{{ url_for('static',filename='image/1.png') }}" alt="sixthHero" class="heroImages" id="heroImage3">
+        <div id="message1" class="messageCard">
+            <p id="messageContent">
+                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias quasi unde illo sint perferendis eveniet adipisci suscipit ratione sequi est quibusdam provident harum, ipsum doloremque beatae sit minima sed tempore.
+            </p>
+        </div>
+        <div id="message2" class="messageCard">
+            <p id="messageContent">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, vero beatae consequatur voluptatem possimus deserunt necessitatibus qui aliquam maxime ratione quam itaque quae quod officia, laboriosam esse at dolores tempore?
+            </p>
+        </div>
+        <div id="message3" class="messageCard">
+            <p id="messageContent">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae dolores magni eos consequatur tempore amet, odit excepturi quibusdam suscipit in totam assumenda, deleniti porro provident quis optio? Consectetur, facilis ad?
+            </p>
+        </div>
+    </div>
+    <div class="fourth section">
+        <div id="leftInfo">
+            <p id="wordmapText">The image that you see on the right has been developed using Machine Learning.
+                It used our text data over the past few weeks. The words that appear bigger and brighter, have been used more 
+                frequently than others.</p>
+        </div>
+        <div id="rightImage">
+                <img  src="{{ url_for('static',filename='image/test.png') }}" alt="Word Cloud" id="wordCloud" data-title="Image Caption" 3 data-group="single"  class="js-lightBox">
+        </div>
+        
+       
+    </div>
+    <div class="fifth section">
+        <a href="{{ url_for('logout') }}" id="logoutLink">LOG OUT</a>
+        <div id="giftTextContainer">
+            
+            <p id="giftText">Click below to receive your gift !</p>
+            <a href="{{ url_for('sendMail') }}" id="giftLink">GIFT</a>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+{% endblock %}

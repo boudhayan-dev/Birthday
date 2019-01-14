@@ -1,0 +1,24 @@
+{% extends "base.html" %} {% block content %}
+
+<div class="homeBack animated zoomIn">
+    <div id="nav">
+        <a href="{{ url_for('login') }}" id="surpriseButton">Surprise</a>
+    </div>
+   <div id="leftImage">
+       <img src="{{ url_for('static',filename='image/hero.png') }}"alt="HeroImage" width=380px height="300px" id="heroImage">
+
+   </div>
+   <div id="rightContent">
+       <p id="header">HAPPY BIRTHDAY <span id="dubbi"> <strong> JanDoe </strong></span> !!</p>
+       <p id="description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+           Expedita non quas soluta dolores incidunt magnam. 
+           Aperiam repellendus, reprehenderit dolore neque repellat 
+           odit ipsum deleniti earum vitae illum, temporibus ad sed !!</p>
+        <br>
+        <div>
+            <a href="{{ url_for('login') }}" id="seeMoreButton" >See More</a>
+        </div>
+   </div>
+</div>
+
+{% endblock %}

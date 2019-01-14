@@ -1,0 +1,197 @@
+.mainPage {
+    height: auto;
+    width:  100%;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.first{
+    /* background-color: rgb(245, 176, 48); */
+    height: 100%;
+    
+}
+
+.second{
+    background-image: url(../image/main2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 100%;
+
+
+}
+.third{
+    background-image: url(../image/main3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 100%;
+  
+}
+.fourth{
+    background-color: #006051;
+    height: 100%;
+    
+}
+.fifth{
+    background-image:  url(../image/main5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 100%;
+}
+
+#giftTextContainer{
+    top: 40%;
+    left: 40%;
+    position: absolute;
+}
+#giftText{
+    letter-spacing: 3px;
+}
+#wordCloud{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+
+#rightImage:hover #wordCloud{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#rightImage{
+    width: 55%;
+    height: 90%;
+    top:5% ;
+    left: 40%;
+    position: absolute;
+    /* border-radius: 25px; */
+}
+
+#leftInfo{
+    width: 30%;
+    height: 70%;
+    background-color: #141414;
+    top: 15%;
+    left: 5%;
+    position: absolute;
+    /* border-radius: 25px; */
+    -webkit-box-shadow: 10px 10px 25px -6px rgba(0,0,0,0.64);
+    -moz-box-shadow: 10px 10px 25px -6px rgba(0,0,0,0.64);
+    box-shadow: 10px 10px 25px -6px rgba(0,0,0,0.64);
+    overflow: hidden;
+}
+
+
+#wordmapText{
+    top: 5%;
+    padding: 8%;
+    position: relative;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    text-align: justify;
+    font-size: 3vh;
+    color: white;
+}
+
+#logoutLink{
+    right: 5%;
+    top: 3%;
+    padding-top: 8px;
+    padding-left: 12px;
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    text-decoration: none;
+    width: 100px;
+    background-color: green;
+    border-color: blue;
+    border-width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 14px 11px 19px -8px rgba(0,0,0,0.63);
+    -moz-box-shadow: 14px 11px 19px -8px rgba(0,0,0,0.63);
+    box-shadow: 14px 11px 19px -8px rgba(0,0,0,0.63);
+}
+#giftLink{
+    padding-top: 8px;
+    padding-left: 150px;
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    text-decoration: none;
+    width: 200px;
+    background-color: #6358f1;
+    border-color: blue;
+    border-width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 14px 11px 19px -8px rgba(0,0,0,0.63);
+    -moz-box-shadow: 14px 11px 19px -8px rgba(0,0,0,0.63);
+    box-shadow: 14px 11px 19px -8px rgba(0,0,0,0.63);
+
+}
+
+.heroImages{
+    /* max-width: 20%;
+    width: 100%;
+    height: auto; */
+    width: 45vh;
+    top: 2%;
+    position: absolute;
+}
+#heroImage1{
+    left: 9%;
+    position: absolute;
+    z-index: 2;
+}
+#heroImage2{
+    left: 39%;
+    position: absolute;
+    z-index: 2;
+}
+#heroImage3{
+    left: 69%;
+    position: absolute;
+    z-index: 2;
+}
+
+.messageCard{
+    overflow: hidden;
+    max-width: 20%;
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    background-color: aliceblue;
+    top: 25%;
+    z-index: 1;
+    border-radius: 20px;
+    -webkit-box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.59);
+    -moz-box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.59);
+    box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.59);
+}
+
+#message1{
+    left: 9%;
+}
+
+#message2{
+    left: 39%;
+}
+#message3{
+    left: 69%;
+}
+
+
+#messageContent{
+    line-height: 4vh;
+    padding-top: 15vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.7vh;
+    word-spacing: 5px;
+}
+
