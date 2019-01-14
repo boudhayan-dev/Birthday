@@ -12,7 +12,7 @@ on them, a word cloud made from their chat history generated using <a href="http
 <h2> Download and Installation</h2>
 <ul>
 <li> Clone the repository</li>
-<pre>git clone</pre>
+<pre>git clone https://github.com/boudhayan-dev/Birthday</pre>
 <li> Set few environment variables </li>
 <pre>
 """ I have used Gmail. If another service is used then set the following optional variables as well.
