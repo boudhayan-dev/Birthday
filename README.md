@@ -13,6 +13,7 @@ on them, a word cloud made from their chat history generated using <a href="http
 
 ![](demo/demo.gif)
 
+<br>
 
 <h2> Download and Installation</h2>
 <ul>
