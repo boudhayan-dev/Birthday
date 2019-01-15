@@ -9,6 +9,11 @@ on them, a word cloud made from their chat history generated using <a href="http
 <br>
 <small><strong>Note:</strong> The site works best on Chrome. </small>
 
+<h2>Demo<h2>
+
+![](demo/demo.gif)
+
+
 <h2> Download and Installation</h2>
 <ul>
 <li> Clone the repository</li>
@@ -53,10 +58,6 @@ flask run
 </pre>
 </ul>
 
-<h2>Demo<h2>
-
-![](demo/demo.gif)
 
 
-<br>
-<strong><small>© 2019 Boudhayan Dev.  All rights reserved.</small></strong>
+<small>© 2019 Boudhayan Dev.  All rights reserved.</small>
