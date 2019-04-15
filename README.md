@@ -31,13 +31,7 @@ set MAIL_PASSWORD = sender's password<br>
 set MAIL_RECEIVER = receiver's email address
 </pre>
 <small><strong>Note:</strong></small> use <code> export </code> instead of <code>set</code> in case of Linux.
-<li>Create a user for accessing the site</li>
-<pre>
-flask db init<br>
-python util/create_user.py username password<br>
-flask db migrate -m "Created admin user"<br>
-flask db upgrade
-</pre>
+
 The above creds will be used to login in the website.
 <li>Create virtual environment and activate it</li>
 <pre>
@@ -52,6 +46,13 @@ cd ../../
 <li>Install all dependencies</li>
 <pre>
 pip install -r requirements.txt
+</pre>
+<li>Create a user for accessing the site</li>
+<pre>
+flask db init<br>
+python util/create_user.py username password<br>
+flask db migrate -m "Created admin user"<br>
+flask db upgrade
 </pre>
 <li> Run</li>
 <pre>
